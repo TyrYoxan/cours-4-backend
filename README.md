@@ -43,6 +43,13 @@ Sans docker:
 php -S 0.0.0.0:8080 -t public
 ```
 
+## Lancer les tests
+```bash
+docker compose run --rm php ./run_test.sh
+```
 
-
+Sans docker:
+```bash
+./run_test.sh
+```
 
